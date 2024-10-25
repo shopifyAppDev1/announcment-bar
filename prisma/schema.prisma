@@ -3,6 +3,7 @@
 
 generator client {
   provider = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
 }
 
 // Note that some adapters may set a maximum length for the String type by default, please ensure your strings are long
@@ -10,7 +11,7 @@ generator client {
 // See https://www.prisma.io/docs/orm/reference/prisma-schema-reference#string for more information
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://announcment_bar_test_postgresql_user:GYAZmvFCo18t2H8p59aDFWurtO6tlMWZ@dpg-csdm1olsvqrc73919jeg-a/announcment_bar_test_postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Session {

@@ -3,7 +3,7 @@
 client_id = "c6d608b5c25d44b6c2819a9a65ed9cdb"
 name = "announcementbar"
 handle = "announcementbar-4"
-application_url = "https://mile-faqs-tcp-beds.trycloudflare.com"
+application_url = "https://containers-sporting-dvds-belong.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://mile-faqs-tcp-beds.trycloudflare.com/auth/callback",
-  "https://mile-faqs-tcp-beds.trycloudflare.com/auth/shopify/callback",
-  "https://mile-faqs-tcp-beds.trycloudflare.com/api/auth/callback"
+  "https://containers-sporting-dvds-belong.trycloudflare.com/auth/callback",
+  "https://containers-sporting-dvds-belong.trycloudflare.com/auth/shopify/callback",
+  "https://containers-sporting-dvds-belong.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
